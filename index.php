@@ -3,23 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 3</title>
-<!--Escribe un programa que muestre por pantalla 10 palabras en inglés con su traducción al castellano en dos columnas (usa)-->
+    <title>Ejercicio 4</title>
+<!--Escribe un programa que muestre tu horario de clase mediante una tabla, intercalando HTML y PHP-->
 </head>
 <body>
     <?php
         echo "<table border = '1'>
-        <tr> <th> ESPAÑOL </th> <th> INGLÉS </th> </tr> 
-        <tr> <td>perro</td> <td>dog</td></tr>
-        <tr> <td>gato</td> <td>cat</td></tr>
-        <tr> <td>verde</td> <td>green</td></tr>
-        <tr> <td>arreglar</td> <td>fix</td></tr>
-        <tr> <td>aprobar</td> <td>pass</td></tr>
-        <tr> <td>manzana</td> <td>apple</td></tr>
-        <tr> <td>platano</td> <td>banana</td></tr>
-        <tr> <td>caballo</td> <td>horse</td></tr>
-        <tr> <td>cerdo</td> <td>pig</td></tr>
-        <tr> <td>persona</td> <td>person</td></tr>
+        <tr> <th> </th> <th> LUNES </th> <th> MARTES </th>  <th> MIERCOLES </th>  <th> JUEVES </th>  <th> VIERNES </th> </tr> 
+        <tr> <td>8:15</td> <td>Diseño de Interfaces</td> <td>Prog. Cliente</td> <td>Diseño de Interfaces</td> <td>Inglés</td> <td>Diseño de Interfaces</td></tr>
+        <tr> <td>9:15</td> <td>Optativa</td> <td>Prog. Cliente</td> <td>Diseño de Interfaces</td> <td>Inglés</td> <td>Diseño de Interfaces</td> </tr>
+        <tr> <td>10:15</td> <td>Optativa</td> <td>IPE</td> <td>IPE</td> <td>Desarrollo Web</td> <td>Prog. Servidor</td></tr>
+        <tr> <td>11:15</td> <th colspan = 5> RECREO </th> </tr>
+        <tr> <td>11:45</td> <td>Prog. Servidor</td> <td>IPE</td> <td>Prog. Servidor</td> <td>Desarrollo Web</td> <td>Prog. Servidor</td> </tr>
+        <tr> <td>12:45</td> <td>Prog. Servidor</td> <td>Proyecto Integrado</td> <td>Prog. Servidor</td> <td>Prog. Cliente</td> <td>Prog. Cliente</td></tr>
+        <tr> <td>13:45</td> <td>Prog. Servidor</td> <td>Proyecto Integrado</td> <td>Optativa</td> <td>Prog. Cliente</td> <td>Prog. Cliente</td></tr>
         </table>";
 
     ?>
