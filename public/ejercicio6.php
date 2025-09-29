@@ -6,10 +6,10 @@
 <body>
     <?php
         $i = 320;
-        while ($i >= 160) {
+        do {
             echo "El valor de i es " . $i . "<br/>";
             $i-=20;
-        }
+        }while ($i >= 160);
     ?>
 </body>
 </html>
