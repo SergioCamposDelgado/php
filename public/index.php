@@ -5,11 +5,9 @@
 </head>
 <body>
     <?php
-        $i = 5;
-        do {
-            echo "El valor de i es " . $i ."<br/>";
-            $i+=5;
-        } while ($i <= 100);
+        for ($i=320; $i >= 160 ; $i-=20) { 
+            echo "El valor de i es " . $i . "<br/>";
+        }
     ?>
 </body>
 </html>
