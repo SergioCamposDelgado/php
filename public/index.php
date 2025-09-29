@@ -1,17 +1,27 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
 </head>
 <body>
     <?php
-        $numero_1 = $_GET['num1'];
-        $numero_2 = $_GET['num2'];
-        // Realizar calculo
+        for ($i = 0; $i < 10; $i++) {
+            echo "El valor de i es " . $i ."<br/>";
+        }
 
-        $res = $numero_1 * $numero_2;
-
-        echo "<h2>La multiplicacion de $numero_1 y $numero_2 es $res</h2>";
+        
+        echo "<br/>";
+        $j = 0;
+        while ($j < 10) {
+            echo "El valor de j es " . $j ."<br/>";
+            $j++;
+        }
+        echo "<br/>";
+        $x = 0;
+        do {
+            echo "El valor de x es " . $x ."<br/>";
+            $x++;
+        } while ($x < 10);
     ?>
 </body>
 </html>
