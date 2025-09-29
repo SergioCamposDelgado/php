@@ -5,8 +5,10 @@
 </head>
 <body>
     <?php
-        for ($i = 5; $i <= 100; $i+=5) {
+        $i = 5;
+        while ($i <= 100){
             echo "El valor de i es " . $i ."<br/>";
+            $i+=5;
         }
     ?>
 </body>
